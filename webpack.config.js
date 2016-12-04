@@ -1,10 +1,11 @@
 const path = require('path');
 
 module.exports = {
+    context: path.join(__dirname, 'ps-course'),
     entry: './main',
     output: {
-        path: __dirname,
-        fileName: 'app.js'
+        path: path.join(__dirname, 'ps-course'),
+        filename: 'bundle.js'
     },
     module: {
         loaders: [
