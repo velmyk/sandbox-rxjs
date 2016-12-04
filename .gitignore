@@ -35,3 +35,9 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# OS related files and folders
+.DS_Store
+
+# IDE realted files and folders
+.vscode

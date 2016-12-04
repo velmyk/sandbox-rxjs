@@ -1,0 +1,35 @@
+{
+  "name": "sandbox-rxjs",
+  "version": "0.0.1",
+  "description": "rxjs typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velmyk/sandbox-rxjs.git"
+  },
+  "keywords": [
+    "rxjs",
+    "typescript"
+  ],
+  "author": "velmyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/velmyk/sandbox-rxjs/issues"
+  },
+  "homepage": "https://github.com/velmyk/sandbox-rxjs#readme",
+  "dependencies": {
+    "rxjs": "5.0.0-rc.4"
+  },
+  "devDependencies": {
+    "ts-loader": "1.2.2",
+    "typescript": "2.0.10",
+    "typings": "2.0.0",
+    "webpack": "1.13.3",
+    "webpack-dev-server": "1.16.2"
+  }
+}
